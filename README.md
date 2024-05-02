@@ -1,2 +1,0 @@
-# U20CAM-1080P-S1
-USB 2.0 CAMERA For Raspberry Pi, Jetson Nano. 1080P/30FPS
