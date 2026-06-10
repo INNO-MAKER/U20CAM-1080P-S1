@@ -20,7 +20,7 @@ A1:
 
 (1) **Insufficient USB port bandwidth or power supply**: If the USB port bandwidth or power supply is inadequate, it can affect the device's performance. Plug the camera module directly into the computer's USB port to avoid sharing bandwidth with other devices, or use a USB hub with external power supply. Try plugging into a USB 3.0 port, as these ports typically offer stronger driving capabilities.
 
-(2)**Insufficient CPU/MPU/GPU/RAM performance**: This issue is common with o8lder computers or ARM development boards. Older hardware may struggle to process image data quickly, causing the frame rate to fall short. Consider upgrading the hardware platform or reducing the resolution to alleviate the system's load.
+(2)**Insufficient CPU/MPU/GPU/RAM performance**: This issue is common with older computers or ARM development boards. Older hardware may struggle to process image data quickly, causing the frame rate to fall short. Consider upgrading the hardware platform or reducing the resolution to alleviate the system's load.
 
 (3)**Driver or testing software issues**: This is less common, but if the first two causes are ruled out and the issue persists, consider updating the UVC drivers or switching to another testing software.
 
@@ -28,7 +28,9 @@ A1:
 
 Q2： Why does the U20CAM-1080P-S1 experience overexposure, resulting in a completely white image, when used in strong outdoor light?
 
-A2: The camera was initially designed to better support various operating modes, which led to suboptimal exposure adjustments for outdoor use. A temporary solution is to disable the auto exposure option in the software when using it outdoors, and manually adjust the exposure to an appropriate level. We expect to release a new version in Nov. 2025 (with no hardware changes), which will optimize and better accommodate both indoor and outdoor lighting conditions.
+A2: The camera was originally designed to support various operating modes, which resulted in suboptimal exposure adjustment for outdoor use. A temporary solution is to disable the auto exposure option via software and manually adjust the exposure to an appropriate level when using the camera outdoors. Versions purchased after November 2025 have already optimized this issue, providing better adaptation to both indoor and outdoor lighting conditions. If your requirements are still not met, please use the 1080P camera with the WDR (Wide Dynamic Range) version. It delivers clear and balanced video in challenging lighting conditions, including backlight, strong contrast, and dim environments, while preserving highlight and shadow details. Link: https://github.com/INNO-MAKER/U20CAM-1080P-WDR
+
+
 
 Q3：The PCBA has reserved silkscreen for infrared LEDs and infrared diodes. Can I solder and add the infrared function myself?
 
